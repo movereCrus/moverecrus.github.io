@@ -1,3 +1,7 @@
 tg = window.Telegram.WebApp
 
-console.log(tg.WebAppUser)
+wrap = document.getElementById(test)
+p = document.createElement("p")
+p.innerText=`$(tg.WebAppUser)`
+
+wrap.appendChild(p)
