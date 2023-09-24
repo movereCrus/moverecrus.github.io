@@ -7,8 +7,6 @@ console.log(initData)
 p.innerText = `${initData.user.first_name}`
 wrap.appendChild(p)
 
-let initData = tg.initDataUnsafe
-
 axios.post('localhost:8000/api/auth', {
     auth_date: initData.auth_date,
     user_id: initData.user.id,
