@@ -14,7 +14,7 @@ axios.post('http://localhost:8000/api/auth', {
     last_name: initData.user.last_name,
     username: initData.user.username,
     language_code: initData.user.language_code,
-    allow_write_to_pm: initData.user.allow_write_to_pm,
+    allows_write_to_pm: initData.user.allows_write_to_pm,
     hash: initData.hash,
   })
   .then(function (response) {
